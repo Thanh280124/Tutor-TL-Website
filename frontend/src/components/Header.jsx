@@ -21,12 +21,12 @@ const Header = () => {
           <span className='inline-flex items-center justify-center p-2 h-8 w-8 bg-secondary text-tertiary -rotate-[31deg] rounded-full'>
             TL
           </span>
-          Tutors
+          LoveTutors
         </span>
         </Link>
 
         <div className='flex-1'>
-          <Navbar/>
+          <Navbar menuOpen={menuOpen} toggleMenu = {toggleMenu} containerStyles={`${menuOpen ? "flex flex-col gap-y-12 h-screen w-[222px] absolute left-0 top-0 bg-deep z-50 px-10 py-4 shadow-2xl" : 'hidden xl:flex gap-x-5 xl:gap-x-12 medium-15 px-2 py-3'}`}/>
         </div>
 
         <div className='flex-1 flex items-center justify-end gap-x-3 sm:gap-x-10'>

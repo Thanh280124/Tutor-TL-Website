@@ -11,7 +11,7 @@ import Verify from "./pages/Verify"
 import { Route, Routes } from "react-router-dom"
 function App() {
   return (
-    <main>
+    <main className="overflow-hidden bg-light text-tertiary">
       <Header/>
       <Routes>
         <Route path="/" element ={<Home/>}/>

@@ -11,7 +11,6 @@
   font-family: "Inter", system-ui;
 }
 
-/* width */
 ::-webkit-scrollbar {
   display: none;
 }
@@ -69,7 +68,7 @@
   }
 
   .max-padd-container {
-    @apply mx-auto max-w-[1440px] px-6 lg:px-12;
+    @apply mx-auto max-w-[1540px] px-6 lg:px-12;
   }
 
   .flexCenter {

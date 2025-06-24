@@ -14,7 +14,7 @@ const Header = () => {
     setMenuOpen(!menuOpen)
   }
   return (
-    <header className='max-padd-container w-full absolute top-0 left-0 right-0 z-50 bg-deep text-white py-3'>
+    <header className='max-padd-container w-full absolute top-0 left-0 right-0 z-50 bg-deep text-white py-5'>
       <div className='flexBetween'>
         <Link to={'/'} className='bold-24 flex-1 flex'>
         <span className='inline-flex'>
@@ -35,7 +35,7 @@ const Header = () => {
           )}
           <div>
             <div>
-              <button className='btn-white !border-none flexCenter gap-x-2 !py-3'>Login <RiUserLine/></button>
+              <button className='btn-white medium-18 !border-none flexCenter gap-x-2 !py-3'>Login <RiUserLine/></button>
             </div>
           </div>
         </div>

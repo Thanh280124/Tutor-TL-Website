@@ -31,7 +31,7 @@ const Navbar = ({containerStyles,toggleMenu, menuOpen}) => {
       navItems.map(({ to, label }) => (
   <div key={label} className='inline-flex'>
     <NavLink to={to} className={({ isActive }) => isActive ? 'active-link' : ''}>
-      <h5 className='medium-16'>{label}</h5>
+      <h5 className='medium-20'>{label}</h5>
     </NavLink>
   </div>
 ))

@@ -9,6 +9,7 @@ import MySessions from "./pages/MySessions"
 import Session from "./pages/Session"
 import Verify from "./pages/Verify"
 import { Route, Routes } from "react-router-dom"
+import Footer from './components/Footer'
 function App() {
   return (
     <main className="overflow-hidden bg-light text-tertiary">
@@ -25,7 +26,7 @@ function App() {
         <Route path="/verify" element ={<Verify/>}/>
         <Route path="/login" element ={<Login/>}/>      
       </Routes>
-
+    <Footer/>
     </main>
   )
 }

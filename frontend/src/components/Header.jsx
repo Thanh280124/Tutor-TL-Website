@@ -14,7 +14,7 @@ const Header = () => {
     setMenuOpen(!menuOpen)
   }
   return (
-    <header className='max-padd-container w-full absolute top-0 left-0 right-0 z-50 bg-deep text-white py-5'>
+    <header className='max-padd-container 2xl:max-w-[2500px] w-full absolute top-0 left-0 right-0 z-50 bg-deep text-white py-5'>
       <div className='flexBetween'>
         <Link to={'/'} className='bold-24 flex-1 flex'>
         <span className='inline-flex'>
@@ -26,12 +26,12 @@ const Header = () => {
         </Link>
 
         <div className='flex-1'>
-          <Navbar menuOpen={menuOpen} toggleMenu = {toggleMenu} containerStyles={`${menuOpen ? "flex flex-col gap-y-12 h-screen w-[222px] absolute left-0 top-0 bg-deep z-50 px-10 py-4 shadow-2xl" : 'hidden xl:flex gap-x-5 xl:gap-x-12 medium-15 px-2 py-3'}`}/>
+          <Navbar menuOpen={menuOpen} toggleMenu = {toggleMenu} containerStyles={`${menuOpen ? "flex flex-col gap-y-12 h-screen w-[222px] absolute left-0 top-0 bg-deep z-50 px-10 py-4 shadow-2xl" : 'hidden lg:flex gap-x-5 xl:gap-x-12 medium-15 px-2 py-3'}`}/>
         </div>
 
         <div className='flex-1 flex items-center justify-end gap-x-3 sm:gap-x-10'>
           {!menuOpen && (
-            <CgMenuLeft onClick={toggleMenu} className='text-2xl xl:hidden cursor-pointer '/>
+            <CgMenuLeft onClick={toggleMenu} className='text-2xl lg:hidden cursor-pointer '/>
           )}
           <div>
             <div>
@@ -39,8 +39,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-
-
+        
       </div>
     </header>
   )

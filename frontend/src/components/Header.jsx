@@ -14,7 +14,7 @@ const Header = () => {
     setMenuOpen(!menuOpen)
   }
   return (
-    <header className='max-padd-container 2xl:max-w-[2500px] w-full absolute top-0 left-0 right-0 z-50 bg-deep text-white py-5'>
+    <header className='max-padd-container 2xl:max-w-[2500px] w-full fixed z-50 bg-deep text-white py-5'>
       <div className='flexBetween'>
         <Link to={'/'} className='bold-24 flex-1 flex'>
         <span className='inline-flex'>

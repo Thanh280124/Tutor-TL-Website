@@ -7,7 +7,7 @@ import { AppContext } from '../context/AppContext'
 const FeaturedTutors = () => {
   const {tutors,navigate,currency} = useContext(AppContext)
   return (
-    <section className='max-padd-container py-16 xl:py-20'>
+    <section className='max-padd-container 2xl:max-w-[2500px] py-16 xl:py-20'>
       <div className='max-w-xl mx-auto text-center pb-16'>
         <div className='h3'>
           <div className='inline-flex flexCenter gap-2 flex-wrap capitalize'>

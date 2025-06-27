@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className='max-padd-container bg-gray-900 text-white py-10'>
+    <footer className='max-padd-container 2xl:max-w-[2500px] bg-gray-900 text-white py-10'>
         <div className='max-auto grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr]
         gap-8'>
             <div className='max-w-sm'>
